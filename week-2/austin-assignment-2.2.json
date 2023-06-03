@@ -1,0 +1,177 @@
+{
+    "_id": 1,
+    "firstName": "William",
+    "lastName": "Austin",
+    "dateOfBirth": "03/07/1987",
+    "userName": "waustin001",
+    "invoices": [
+        {
+            "_id": 10001,
+            "createDate": "06/03/2023",
+            "shipDate": "06/04/2023",
+            "subtotal": 30.95
+        },
+        {
+            "_id": 10002,
+            "createDate": "06/01/2023",
+            "shipDate": "06/03/2023",
+            "subtotal": 29.95
+        },
+        {
+            "_id": 10003,
+            "createDate": "05/29/2023",
+            "shipDate": "05/31/2023",
+            "subtotal": 199.99
+        }
+    ]
+}
+
+{
+            "_id": 10001,
+            "customer_id": 001,
+            "createDate": "06/03/2023",
+            "shipDate": "06/04/2023",
+            "subtotal": 30.95
+        },
+        {
+            "-id": 10002,
+            "customer_id": 001,
+            "createDate": "06/01/2023",
+            "shipDate": "06/03/2023",
+            "subtotal": 29.95
+        },
+        {
+            "-id": 10003,
+            "customer_id": 001,
+            "createDate": "05/29/2023",
+            "shipDate": "05/31/2023",
+            "subtotal": 199.99
+        }
+
+        {
+            "-id": 10003,
+            "createDate": "05/29/2023",
+            "shipDate": "05/31/2023",
+            "subtotal": 199.99,
+            "lineitem": [
+                {
+                    "_id": 456-98-5555,
+                    "productName": "Universal Remote",
+                    "price": 20.99,
+                    "qty": 1
+                },
+                {
+                    "_id": 456-98-5556,
+                    "productName": "AA Batteries",
+                    "price": 15.99,
+                    "qty": 1
+                },
+                {
+                    "_id": 456-98-5557,
+                    "productName": "Television",
+                    "price": 163.01,
+                    "qty": 1
+                }
+            ]
+
+        }
+
+        {
+            "_id": 456-98-5555,
+            "invoice_id": 10003,
+            "productName": "Universal Remote",
+            "price": 20.99,
+            "qty": 1
+        },
+        {                    
+            "_id": 456-98-5556,
+            "invoice_id": 10003,
+            "productName": "AA Batteries",
+            "price": 15.99,
+            "qty": 1
+        },
+        {                    
+            "_id": 456-98-5557,
+            "invoice_id": 10003,
+            "productName": "Television",
+            "price": 163.01,
+            "qty": 1
+        }
+
+{
+    "studentId": 1,
+    "firstName": "William",
+    "lastName": "Austin",
+    "enrollment": [
+        {
+            "term": "Spring - 2023",
+            "gpa": 4.0,
+            "startDate": "05/18/2023",
+            "endDate": "07/17/2023"
+        },
+        {
+            "term": "Winter - 2023",
+            "gpa": 4.0,
+            "startDate": "01/18/2023",
+            "endDate": "03/17/2023"
+        }
+        {
+            "term": "Fall - 2022",
+            "gpa": 4.0,
+            "startDate": "10/10/2022",
+            "endDate": "12/07/2022"
+        }
+    ]
+}
+
+{
+    "term": "Spring - 2023",
+    "gpa": 4.0,
+    "startDate": "05/18/2023",
+    "endDate": "07/17/2023",
+    "course":[
+        {
+            "courseName": "Java II",
+            "description": "Advanced JS Techniques",
+            "instructor": "Jane Doe",
+            "score": 98.86,
+            "letterGrade": "A"
+        }
+        {
+            "courseName": "HTML II",
+            "description": "Advanced HTML Techniques",
+            "instructor": "John Doe",
+            "score": 89.86,
+            "letterGrade": "B"
+        }
+    ] 
+}
+
+{
+    "studentId": 1,
+    "firstName": "William",
+    "lastName": "Austin",
+    "enrollment":
+        {
+            "term": "Spring - 2023",
+            "gpa": 4.0,
+            "startDate": "05/18/2023",
+            "endDate": "07/17/2023",
+            "course":[
+                {
+                    "courseName": "Java II",
+                    "description": "Advanced JS Techniques",
+                    "instructor": "Jane Doe",
+                    "score": 98.86,
+                    "letterGrade": "A"
+                }
+                {
+                    "courseName": "HTML II",
+                    "description": "Advanced HTML Techniques",
+                    "instructor": "John Doe",
+                    "score": 89.86,
+                    "letterGrade": "B"
+                }
+            ]
+        },
+}
