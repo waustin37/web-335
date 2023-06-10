@@ -1,0 +1,35 @@
+{
+    "firstName": "William",
+    "lastName": "Austin",
+    "_id": 1,
+    "roles": [
+        {
+            "roleName":"admin",
+            "roleCode": "1234",
+            "permission": [
+                {
+                    "permissionName":"basicAccess",
+                    "permissionCode": "5"
+                },
+                {
+                    "permissionName":"highAccess",
+                    "permissionCode": "1"
+                }
+            ]
+        },
+        {
+            "roleName": "developer",
+            "roleCode": "1220",
+            "permission":[
+                {
+                    "permissionName":"basicAccess",
+                    "permissionCode":"5"
+                },
+                {
+                    "permissionName":"securityAccess",
+                    "permissionCode": "9"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Random House",
+    "code": 89502,
+    "address": "123 High St, New York, NY 10019",
+    "authors": [
+        {
+            "firstName":"Charles",
+            "lastName": "Dickens",
+            "phone":"555-555-5555",
+            "email":"cdickens@yahoo.com",
+            "books":[
+                {
+                    "isbn":"978-1-60309-502-0",
+                    "name": "Oliver Twist",
+                    "price": 19.95
+                },
+                {
+                    "isbn":"978-1-60309-504-0",
+                    "name": "Tale of Two Cities",
+                    "price": 9.95
+                },
+                {
+                    "isbn":"978-1-60309-508-0",
+                    "name": "A Christmas Carol",
+                    "price": 15.95
+                }
+            ]
+        },
+        {
+            "firstName":"Gillian",
+            "lastName": "Flynn",
+            "phone":"555-716-5555",
+            "email":"gflynnIWin@aol.com",
+            "books":[
+                {
+                    "isbn":"978-1-60309-502-0",
+                    "name": "Gone Girl",
+                    "price": 19.95
+                }
+            ]
+        }
+    ]
+}
