@@ -27,7 +27,6 @@ db.students.deleteOne({lastName:"Austin"})
 //A query to show that William Austin is no longer in Syltherin House
 db.students.find({houseId:'h1010'})
 
-
 //A query to show a list of students by house
 db.houses.aggregate([
     {
