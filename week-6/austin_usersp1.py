@@ -11,12 +11,13 @@ client = MongoClient('mongodb+srv://web335_user:s3cret@cluster0.hkbvlmn.mongodb.
 
 db = client['web335DB']
 
-print(client)
 
+#Display a list of all the user documents
 for user in db.users.find():
     print(user)
 
-
+#Display the user with the following employee ID
 print(db.users.find_one({"employeeID":"1011"}))
 
+#Display the user with the following last name
 print(db.users.find_one({"lastName":"Mozart"}))
