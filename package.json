@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "mongodb": "^5.6.0",
-    "mongosh": "^1.10.0"
+    "mongosh": "^1.10.0",
+    "pip": "^0.0.1"
   }
 }
