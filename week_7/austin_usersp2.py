@@ -2,7 +2,7 @@
 # Title: Exercise 7.3 - 
 # Author: William Austin
 # Date: July, 7 2023
-# Description: Exercise practicing usign Python with MongoDB
+# Description: Exercise practicing using Python with MongoDB
 # Work Cited : WEB 335 Python Guide
 #################################################
 
