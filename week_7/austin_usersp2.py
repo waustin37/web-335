@@ -45,6 +45,7 @@ db.users.update_one(
 #Displays the newly updated document
 print(db.users.find_one({"employeeId":"1014"}))
 
+#This deletes our newly created and updated document
 result = db.users.delete_one({
     "employeeId":"1014"
 })
